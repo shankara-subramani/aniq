@@ -1,0 +1,25 @@
+html {
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+}
+
+abbr {
+  border-bottom: $abbr-border-bottom;
+  cursor: help;
+}
+
+p {
+  color: #77777a;
+  line-height: 1.6;
+}
+
+small,
+.small {
+  font-size: 0.707rem;
+}
+
+sup {
+  position: relative;
+  vertical-align: middle;
+  top: -0.9ex;
+}

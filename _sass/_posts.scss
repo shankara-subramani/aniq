@@ -1,0 +1,59 @@
+
+.posts {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 0.75em;
+  border-bottom: thin solid #f3f3f3;
+  max-width: 30em;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+  margin-bottom: .375em;
+  padding-bottom: 0;
+}
+
+.post-link .post-title {
+  margin-top: 0;
+  font-weight: 600;
+  color: #111;
+  border-bottom: 3px solid #1fde91;
+  display: table;
+  &:hover {
+    border-bottom: 3px solid #0bbcd6;
+  }
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.meta,
+.post-meta {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+  color: #7a7a7a;
+  font-style: italic;
+  font-size: 0.6rem;
+}
+
+.related-post-title {
+  border-bottom: thin solid #f3f3f3;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
